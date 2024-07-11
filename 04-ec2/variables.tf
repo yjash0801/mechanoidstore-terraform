@@ -14,6 +14,10 @@ variable "common_tags" {
     }
 }
 
+variable "dns" {
+    default = "mechanoidstore.online"
+}
+
 variable "t3-micro" {
     default = "t3.micro"
 }
